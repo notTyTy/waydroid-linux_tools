@@ -10,8 +10,8 @@ WD_FILE=/usr/share/wayland-sessions/waydroid.desktop
 HPATH=$HOME
 CONFIG="false"
 
-echo "Checking for mutter & weston first..."
-sudo apt install weston mutter
+echo "Checking for mutter & weston first. Sakura is also required as an additional dependency..."
+sudo apt install weston mutter sakura -y
 echo "now installing..."
 sudo chmod +x usr/bin
 sudo cp -rp usr/* /usr/

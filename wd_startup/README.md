@@ -1,4 +1,4 @@
-# Waydroid Session Startup
+﻿# Waydroid Session Startup
 
 These scripts are intended to aide in configuring and running the Waydroid-only sessions for Weston and Mutter
 
@@ -11,7 +11,8 @@ These scripts are intended to aide in configuring and running the Waydroid-only 
 
 To install and test, clone the repo, and cd into the directory, then:
 
-	./install.sh
+	./debinstall.sh for Debian based distros
+	./dnfinstall.sh for Fedora/RHEL based distros
 
 ## Folder Contents:
 
